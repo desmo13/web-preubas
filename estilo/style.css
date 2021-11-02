@@ -1,0 +1,14 @@
+#contenido{
+    display: flex;
+
+}
+#contenido p{
+    background-color: aqua;
+    padding: 5px;
+}
+
+@media(max-width: 1000px){
+    #contenido {
+        flex-direction: column;
+    }
+}
